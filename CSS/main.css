@@ -5,10 +5,10 @@
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: black;
+    background-color: antiquewhite;
 }
 
 img {
@@ -18,13 +18,17 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: deepskyblue;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: orange;
 }
 .logo{
     max-width:200px ;
+}
+h1{
+    text-align: center;
+    border: 2px solid deepskyblue;
 }
