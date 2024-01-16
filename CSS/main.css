@@ -12,9 +12,13 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    width: 150px;
+    border-radius: 20%;
+}
+.logo:hover {
+    width: 300px;
+    border-radius: 100px;
+    margin: auto;
 }
 
 a {
@@ -30,5 +34,5 @@ a:hover {
 }
 h1{
     text-align: center;
-    border: 2px solid deepskyblue;
+    border: 5px solid deepskyblue;
 }
