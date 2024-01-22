@@ -1,38 +1,45 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-body {
+body, header {
     font-family: Arial, sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
     line-height: 1.5;
     color: black;
-    background-color: antiquewhite;
+    background-image: url("https://images8.alphacoders.com/380/380580.png");
 }
 
 img {
-    width: 150px;
+    width: 300px;
     border-radius: 20%;
 }
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+
 .logo:hover {
-    width: 300px;
+    width: 400px;
     border-radius: 100px;
     margin: auto;
 }
 
 a {
-    color: deepskyblue;
+    color: black;
     text-decoration: none;
 }
 
 a:hover {
     color: orange;
 }
-.logo{
-    max-width:200px ;
-}
+
 h1{
     text-align: center;
     border: 5px solid deepskyblue;
+    text-shadow: 2px 2px 5px deepskyblue;
+
 }
