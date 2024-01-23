@@ -17,14 +17,10 @@ img {
     border-radius: 20%;
 }
 
-.logo img{
-    max-width: 100%;
+.logo {
+    width: 30%;
     height: auto;
-}
-
-.logo:hover {
-    width: 400px;
-    border-radius: 100px;
+    display: block;
     margin: auto;
 }
 
