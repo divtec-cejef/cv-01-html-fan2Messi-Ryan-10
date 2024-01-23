@@ -39,3 +39,8 @@ h1{
     text-shadow: 2px 2px 5px deepskyblue;
 
 }
+
+.menu{
+    text-align: center;
+    list-style: none;
+}
